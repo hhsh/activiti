@@ -9,7 +9,7 @@ public class ParseCode {
 	  */
 	String s = "af/**  afdf */a";
 	public static void main(String[] args) throws Throwable {
-		Path.sourceCodeRoot = "D:/eclipseSpace/Too/src/";
+		Path.sourceCodeRoot = "E:\\git\\Too\\src\\";
 		String path = Path.sourceCodeRoot  +  "com/fuck/text/java.txt"  ;
 		 
 		Parser p = new MyParser();

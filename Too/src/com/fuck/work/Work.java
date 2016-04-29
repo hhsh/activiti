@@ -1,6 +1,7 @@
 package com.fuck.work;
 
-import com.fuck.work.temp.Table;
+import com.fuck.work.temp.Form;
+import com.fuck.work.temp.SearchColumn;
 
 public class Work {
 	/**
@@ -30,14 +31,17 @@ public class Work {
 //	 	 Column.gen(cls);
 //	 	 System.out.println("---------------------------------");
 		
-//		 String cls = "EAM_SpDesignMunicipal";
-//		 Form.gen(cls);
+		 String cls = "EAM_CautionMoney";
+		 Form.gen(cls);
 //	 	 System.out.println("---------------------------------");
 		
 
-	 	String cls = "EAM_SpTraffic";
-		 Table.gen(cls);
+//	 	String cls = "EAM_SpTraffic";
+//		 Table.gen(cls);
 	 	 //System.out.println("---------------------------------");
+		
+//		String cls = "EAM_Record";
+//		SearchColumn.gen(cls);
 		
 	 	 
 	}

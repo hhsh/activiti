@@ -8,15 +8,15 @@ import com.fuck.BeanProperties;
 public class SearchColumn  {
 
 	 
-	public static String getTemp() {
+	public static String getTemp(String alias) {
 		String t = ""+ 
 	
-		"{cxzdName: '%s', cxzdValue: 'sp.%s', cxzdType: '%s'}," ;
+		"{cxzdName: '%s', cxzdValue: '"+alias+".%s', cxzdType: '%s'}," ;
 		 
 		return t;
 	}
 	
-	public static void gen(String cls) {
+	public static void gen(String cls,String alias) {
 	 
 		String path = "com/fuck/bean/"+cls +".java";
 		List<Map<String,String>> list = BeanProperties.getData(path);
@@ -29,7 +29,7 @@ public class SearchColumn  {
 				typ = "float";
 			}
 			
-			String rs = String.format(getTemp(),
+			String rs = String.format(getTemp(alias),
 					map.get("labelName"),
 					map.get("columnName"),
 					typ

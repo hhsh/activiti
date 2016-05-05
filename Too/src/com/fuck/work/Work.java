@@ -31,8 +31,8 @@ public class Work {
 //	 	 Column.gen(cls);
 //	 	 System.out.println("---------------------------------");
 		
-		 String cls = "EAM_CautionMoney";
-		 Form.gen(cls);
+//		 String cls = "EAM_Book";
+//		 Form.gen(cls);
 //	 	 System.out.println("---------------------------------");
 		
 
@@ -40,8 +40,8 @@ public class Work {
 //		 Table.gen(cls);
 	 	 //System.out.println("---------------------------------");
 		
-//		String cls = "EAM_Record";
-//		SearchColumn.gen(cls);
+		String cls = "EAM_Book";
+		SearchColumn.gen(cls,"bk");
 		
 	 	 
 	}

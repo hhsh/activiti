@@ -7,5 +7,5 @@ public class Path {
 		projectRoot = buildPathRoot.replace("bin/", "");
 	}
 	
-	public static String sourceCodeRoot = projectRoot + "src/";
+	public static String sourceCodeRoot = "E:\\git\\Too\\src\\";
 }

@@ -1,0 +1,11 @@
+{
+ 	s:"\\an    str\"in g",
+ 	"a": {
+ 		b:3,
+ 		c:6,
+ 		d:{e:false}
+ 	 },
+ 	'f': 'afdf\'  sdf',
+ 	g:'about the "True" an\'d more',
+ 	i:"we are 'sorry' an\"d none "
+ }

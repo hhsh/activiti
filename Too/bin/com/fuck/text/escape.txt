@@ -1,0 +1,10 @@
+<tr>
+	<td class="label-td twenty-td">建设单位</td>
+	<td class="input-td thirty-td">
+		<input name="sph_Jsdw" type="text" class="bt-30pct-input easyui-textbox"/>
+	</td>
+	<td class="label-td">立项批准单位</td>
+	<td class="input-td">
+		<input name="sph_Lxpzdw" type="text" class="bt-30pct-input easyui-textbox"/>
+	</td>
+</tr>

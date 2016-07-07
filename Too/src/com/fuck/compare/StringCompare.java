@@ -52,8 +52,8 @@ public class StringCompare {
 
 	public static void main(String[] args) {
 		StringCompare lt = new StringCompare();
-		String str = "1#2203NO525FANGXIEROADHUANGPUDISTRICTSHANGHAICHINA";
-		String target = "1#2203NO525FANGXIEROADSHANGHAICN";
+		String str = "abce";
+		String target = "abcd";
 		System.out.println("similarityRatio=" + lt.getSimilarityRatio(str, target));
 	}
 
